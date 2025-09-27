@@ -16,3 +16,9 @@ func TestPlusOne(t *testing.T) {
 	one := plusOne(slice)
 	fmt.Println(one)
 }
+
+func TestRemoveDuplicates(t *testing.T) {
+	slice := []int{1, 1, 2}
+	res := removeDuplicates(slice)
+	fmt.Println(res)
+}

@@ -1,5 +1,6 @@
 package task1
 
+// https://leetcode.cn/problems/plus-one/description/
 func plusOne(digits []int) []int {
 	var res []int
 	carry := false

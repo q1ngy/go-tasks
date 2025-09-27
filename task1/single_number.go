@@ -1,5 +1,6 @@
 package task1
 
+// https://leetcode.cn/problems/single-number/
 func singleNumber(nums []int) int {
 	var m map[int]int = make(map[int]int)
 	for _, num := range nums {
