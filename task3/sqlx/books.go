@@ -4,7 +4,7 @@ import "github.com/jmoiron/sqlx"
 import _ "github.com/mattn/go-sqlite3"
 
 var booksSchema = `
-CREATE TABLE IF NOT EXISTS Books (
+CREATE TABLE IF NOT EXISTS books (
     id INTEGER PRIMARY KEY,
     title TEXT,
     author TEXT,
